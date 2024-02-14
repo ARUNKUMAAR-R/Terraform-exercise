@@ -1,3 +1,9 @@
+## Author : ARUNKUMAAR R
+## Description : Creating VPC and SG in AWS using Terraform 
+## Date : 14/02/24
+## Language : HCL   
+
+
 resource "aws_vpc" "vpc-terra" {
   cidr_block       = "192.168.0.0/16"
   instance_tenancy = "default"
